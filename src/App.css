@@ -1,38 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+  font-size: 17.5px;
+  margin: 15px 0;
+  color: #141414;
+  text-align: end;
+}
+
+p {
+  margin: 0;
+  font-size: 20px;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100vw;
+  height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-color: #343e71;
+}
+
+#quote-box {
+  max-width: 500px;
+  padding: 35px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+#new-quote {
+  background-color: #4c5cad;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 20px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#new-quote:hover {
+  background-color: #373b4d;
+  color: #4c5cad;  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#tweet-quote {
+  background-color: #4c5cad;  
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+#tweet-quote:hover {
+  background-color: #373b4d;
+  color: #4c5cad;  
 }
