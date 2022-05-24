@@ -7,4 +7,3 @@ This is a random quote machice created for freeCodeCamp Front End Development Li
 - CSS
 - JavaScript
 - React.js
-
